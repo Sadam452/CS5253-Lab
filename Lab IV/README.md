@@ -1,8 +1,8 @@
-# Lab II: Secure Client-Server Communication with DES Encryption
+# Lab II: Secure Client-Server Communication with AES Encryption
 
 ## Description:
 
-This lab assignment focuses on implementing a secure client-server communication using Java socket programming and encrypting the communication using the Data Encryption Standard (DES) algorithm. DES is a symmetric-key block cipher that encrypts data in blocks of 64 bits using a 56-bit key.
+This lab assignment focuses on implementing a secure client-server communication using Java socket programming and encrypting the communication using the Advanced Encryption Standard (AES) algorithm.
 
 ## Features:
 
@@ -10,13 +10,13 @@ This lab assignment focuses on implementing a secure client-server communication
   
 - **Socket Programming:** Java socket programming is used to establish communication between the client and server over the network.
 
-- **DES Encryption:** The communication between the client and server is encrypted using the DES algorithm to ensure confidentiality.
+- **AES Encryption:** The communication between the client and server is encrypted using the AES algorithm to ensure confidentiality.
 
 ## Files:
 
 - **Client.java:** Contains the Java code for the client application. It establishes a connection with the server, sends an encrypted message, and receives the response.
 
-- **Server.java:** Contains the Java code for the server application. It listens for incoming connections from clients, receives the encrypted message, decrypts it using DES, and sends back the response.
+- **Server.java:** Contains the Java code for the server application. It listens for incoming connections from clients, receives the encrypted message, decrypts it using AES, and sends back the response.
 
 ## Usage:
 
